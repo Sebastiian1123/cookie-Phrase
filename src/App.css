@@ -17,6 +17,13 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+.phrase-cookie{
+  padding: auto;
+  border: 10px solid white ;
+  background-color: rgba(115, 116, 117, 0.404);
+  border-radius: 50px
+  
+};
 
 @keyframes logo-spin {
   from {
@@ -32,16 +39,6 @@
     animation: logo-spin infinite 20s linear;
   }
 }
-
-.card {
-  padding: 2em;
 }
 
-.read-the-docs {
-  color: #888;
-}
-.card-song {
-  border: 1px solid white;
-  border-radius: 30px;
-  padding: 10px;
-}
+

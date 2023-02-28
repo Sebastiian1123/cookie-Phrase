@@ -1,6 +1,7 @@
 
 import './App.css'
 import Phrase from './components/Phrase'
+import phrasesj from "./data/phrases.json"
 
 
 function App() {
@@ -10,9 +11,11 @@ function App() {
 
     <div className="App">
       
-      <Phrase>
-        
-      </Phrase>
+      <Phrase
+      phraseData= {phrasesj[0]}
+      />
+         
+      
 
 
    </div>
