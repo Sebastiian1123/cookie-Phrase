@@ -1,8 +1,9 @@
-
+import React from 'react'
 import './App.css'
 import Phrase from './components/Phrase'
 import phrasesj from "./data/phrases.json"
 import { useState } from 'react'
+
 
 
 
