@@ -19,7 +19,6 @@ h1 {
 
 button {
   border-radius: 50%;
-  border: 1px solid transparent;
   margin-left: 10px;
   font-size: 3em;
   font-weight: 500;
@@ -27,10 +26,11 @@ button {
   background-color: #811a1aaf;
   cursor: pointer;
   transition: border-color 0.25s;
-  display: block;
-  width: 100px;
-  height: 100px;
-  justify-content: center;
+  width: 90px;
+  height: 90px;
+  border: solid 7px; 
+  margin-top: 10px;
+  display: initial;
 }
 
 .App{

@@ -3,6 +3,7 @@ import './App.css'
 import Phrase from './components/Phrase'
 import phrasesj from "./data/phrases.json"
 import { useState } from 'react'
+import Title from './components/Title'
 
 
 
@@ -41,7 +42,11 @@ const changes=()=>{
   return (
 
     <div className="App" style={{backgroundImage: images[image]}}>
+   
       <div className='cont'>
+      <div className='title'>
+        <Title/>
+      </div>
       <Phrase
       phraseData= {phrasesj[cookie]}
       />
