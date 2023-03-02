@@ -12,6 +12,7 @@ import Title from './components/Title'
 
 
 
+
 function App() {
   const images =[
     "url(/backgrounds/image1.png)",
