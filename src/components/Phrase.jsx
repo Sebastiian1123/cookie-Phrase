@@ -5,10 +5,6 @@ const Phrase =({phraseData})=>{
         <div className="phrase-cookie">
             <h1>{phraseData.phrase}</h1>
             <h2>{phraseData.author}</h2>
-            <button>
-            
-            </button>
-           
         </div>
     )
     }
